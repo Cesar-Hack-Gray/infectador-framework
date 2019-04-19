@@ -1,5 +1,7 @@
 # infectador-framework in UserLand (no termux)
 # infectador infecta apks originales para hackear androids
+![Screenshot_20190419-101049~01](https://user-images.githubusercontent.com/46208706/56432689-90c02b00-628b-11e9-9526-54d0ec0aaea9.png)
+# infectador-framework califica esta herramienta con una estrella en la parte superior lo veras
 ![Screenshot_20190326-213814~01](https://user-images.githubusercontent.com/46208706/55048972-ccaafc00-500f-11e9-88c1-4b1f17e3bea2.png)
 # contactame si infectador presenta errores
 # https://t.me/CesarGray
