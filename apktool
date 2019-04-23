@@ -1,0 +1,8 @@
+#!/usr/bin/sh
+
+dalvikvm -cp $PREFIX/lib/apktool.jar\
+	brut.apktool.Main \
+	-cp $PREFIX/share/java/android.jar \
+	$@ \
+	-p /system/framework/framework-res.apk \
+	-r
