@@ -1,0 +1,20 @@
+#!/usr/bin/sh
+
+z="                                                                   ";Qz='36m'\''';Iz='32m'\''';Fz='  G=';Cz='1;31';Oz='1;35';Mz='34m'\''';Gz=''\''\03';Kz='1;33';Jz='Y='\''\';Hz='3[1;';Az='R='\''\';Nz='M='\''\';Lz='  B=';Bz='033[';Ez='    ';Pz='  C=';Dz='m'\''  ';              eval "$Az$Bz$Cz$Dz$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Fz$Gz$Hz$Iz$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Jz$Bz$Kz$Dz$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Lz$Gz$Hz$Mz$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Nz$Bz$Oz$Dz$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Pz$Gz$Hz$Qz"
+if [ -e ~/infectador-framework ]; then
+dalvikvm -cp $PREFIX/lib/apktool.jar\
+	brut.apktool.Main \
+	-cp $PREFIX/share/java/android.jar \
+	$@ \
+	-p /system/framework/framework-res.apk \
+	-r
+
+else
+z="
+";lz='in i';tz='//t.';sz='tps:';nz='tado';Lz='ckGr';Vz='a di';Yz=' inf';Mz='ay"';Dz=' -e ';wz='Gray';Wz='recc';Ez='"$R ';dz='k el';Rz='o se';vz='esar';oz='r"';Tz='uent';Uz='ra l';jz='corr';Pz=' Err';Xz='ion"';Zz='ecta';Fz='    ';yz='exit';xz='"';hz='tool';pz=' Con';Cz='p 1';Jz='@Ces';Qz='or n';ABz=' 3';Gz=' Cre';Az='echo';cz='ewor';bz='fram';Oz='*]$W';Nz='"$B[';Iz=' by ';uz='me/C';fz='E"';az='dor-';Sz=' enc';gz=' apk';qz='tact';iz=' no ';Bz='slee';Hz='ated';mz='nfec';kz='eo s';ez=' HOM';rz='a ht';Kz='arHa';
+eval "$Az$z$Bz$Cz$z$Az$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$z$Az$Dz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$z$Az$Dz$Nz$Oz$Yz$Zz$az$bz$cz$dz$ez$fz$z$Az$Dz$Nz$Oz$gz$hz$iz$jz$kz$lz$mz$nz$oz$z$Az$Dz$Nz$Oz$pz$qz$rz$sz$tz$uz$vz$wz$xz$z$Az$z$Az$z$yz$ABz"
+fi
+
+
+
+
