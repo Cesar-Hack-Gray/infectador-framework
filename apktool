@@ -2,7 +2,7 @@
 
 z="                                                                   ";Qz='36m'\''';Iz='32m'\''';Fz='  G=';Cz='1;31';Oz='1;35';Mz='34m'\''';Gz=''\''\03';Kz='1;33';Jz='Y='\''\';Hz='3[1;';Az='R='\''\';Nz='M='\''\';Lz='  B=';Bz='033[';Ez='    ';Pz='  C=';Dz='m'\''  ';              eval "$Az$Bz$Cz$Dz$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Fz$Gz$Hz$Iz$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Jz$Bz$Kz$Dz$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Lz$Gz$Hz$Mz$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Nz$Bz$Oz$Dz$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Ez$Pz$Gz$Hz$Qz"
 if [ -e ~/infectador-framework ]; then
-java -cp $PREFIX/lib/apktool.jar\
+dalvikvm -cp $PREFIX/lib/apktool.jar\
 	brut.apktool.Main \
 	-cp $PREFIX/share/java/android.jar \
 	$@ \
