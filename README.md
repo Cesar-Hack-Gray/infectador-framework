@@ -1,9 +1,10 @@
 # infectador-framework in 
-
+# actualiza infectador con el comando ./Infectador --update
 # UserLand
 # Termux
 # ubuntu
-# Kali linux (nethunter!
+# Kali linux (nethunter)
+# Kali Linux ( pc )
 
 # infectador infecta apks originales para hackear androids
 ![Screenshot_20190419-101049~01](https://user-images.githubusercontent.com/46208706/56432689-90c02b00-628b-11e9-9526-54d0ec0aaea9.png)
