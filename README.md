@@ -1,14 +1,24 @@
 # infectador-framework in 
-# actualiza infectador con el comando ./Infectador --update
-# UserLand
-# Termux
-# ubuntu
-# Kali linux (nethunter)
-# Kali Linux ( pc )
+
+
+     actualiza infectador con el comando ./Infectador --update
+     UserLand
+     Termux| Android 32 bits | 64 bits not soported
+     ubuntu
+     Kali linux (nethunter)
+     Kali Linux ( pc )
 
 # infectador infecta apks originales para hackear androids
 ![Screenshot_20190419-101049~01](https://user-images.githubusercontent.com/46208706/56432689-90c02b00-628b-11e9-9526-54d0ec0aaea9.png)
 # infectador-framework califica esta herramienta con una estrella en la parte superior lo veras
+#### Requisitos
+
+      java
+      apktool
+      metasploit-franework
+      
+      
+      
 ![Screenshot_20190326-213814~01](https://user-images.githubusercontent.com/46208706/55048972-ccaafc00-500f-11e9-88c1-4b1f17e3bea2.png)
 # contactame si infectador presenta errores
 # https://t.me/CesarGray
