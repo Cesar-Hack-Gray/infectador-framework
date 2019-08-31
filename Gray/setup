@@ -1,0 +1,33 @@
+#!/usr/bin/bash
+
+#apt update && apt upgrade -y
+#apt install sudo -y
+if [ -e /usr/bin/apktool ]; then
+	apt purge apktool -y
+	apt autoremove -y
+fi
+apt install apt-utils aapt openjdk-8-jdk wget android-framework-res -y
+if [ -e /usr/bin/bind-apk ]; then
+	rm /usr/bin/bind-apk
+fi
+cp ~/u-setup/apktool /usr/bin/
+cp ~/u-setup/publickey.pk8 /usr/lib/
+cp ~/u-setup/publickey.x509.pem /usr/lib/
+cp ~/u-setup/signapk /usr/bin/
+cp ~/u-setup/signapk.jar /usr/bin/
+chmod 700 /usr/bin/signapk /usr/bin/apktool
+if [ -e /usr/bin/apktool_2.4.0.jar ]; then
+	echo "apktool_2.4.0.jar file present"
+else
+cd /usr/bin/
+wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.4.0.jar
+cd
+fi
+sed -i "s/#force_color_prompt=yes/force_color_prompt=yes/g" ~/.bashrc
+mkdir -p ~/.bind
+echo
+source ~/.bashrc
+echo
+echo -e "\e[1;34m[*] setup complete"
+rm -rf ~/setup ~/u-setup
+exit 0

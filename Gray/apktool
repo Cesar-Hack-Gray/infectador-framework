@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+WORKING_DIR=~/.local/share/apktool/framework
+if [ ! -d ${WORKING_DIR} ]; then
+mkdir -p ${WORKING_DIR}
+ln -s /usr/share/android-framework-res/framework-res.apk ${WORKING_DIR}/1.apk
+fi
+java -Xmx1024M -Dfile.encoding=utf-8\
+	-jar /usr/bin/apktool_2.4.0.jar \
+	-p $HOME.local/share/apktool/framework/ \
+	$@
