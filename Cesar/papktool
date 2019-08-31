@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+r="L2RhdGEv"
+e="ZGF0YS9jb20ud"
+m="GVybXV4L2ZpbGV"
+o="zL3Vzci9za"
+b="GFyZS9ma"
+i="WdsZXQv"
+n="UmVtbzc3"
+d="My5mbGYK"
+bindapk=`base64 \
+	\
+	\
+	\
+	\
+	\
+	-d \
+	\
+	\
+	\
+	\
+	<<<\
+	\
+	\
+	\
+	$r$e$m$o$b$i$n$d`
+if \
+	[ \
+	-e \
+	$bindapk \
+	]; \
+then
+(
+cat \
+\
+\
+<< \
+\
+\
+EOF \
+\
+| \
+\
+\
+\
+\
+\
+parrot
+bash \
+	\
+	\
+	\
+	\
+	apktool  \
+	\
+	\
+	\
+	\
+	$@
+EOF
+)
+else
+	echo "dont copy my job"
+fi
