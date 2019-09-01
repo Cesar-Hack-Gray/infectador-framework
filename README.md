@@ -1,9 +1,7 @@
 # infectador-framework in 
 
-
-     actualiza infectador con el comando ./Infectador --update
      UserLand
-     Termux| Android 32 bits | 64 bits not soported
+     Termux
      ubuntu
      Kali linux (nethunter)
      Kali Linux ( pc )
