@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#
+# Lo siento pero a mi me cuesta 
+# hacer mis scritps como para que
+# otros vengan y se adueñen de ellos :v
+# 
+#
+#
+CesarHackGray=$(mktemp)
+base64 -d  >${CesarHackGray}<<DIXIE
+IyEvYmluL2VudiBiYXNoCiMKIyBPYmZ1c2NhdGUgYnkgQENlc2FySGFja0dyYXkKIyBDcmVkaXRv
+cyBwYXJhIEBDZXNhckhhY2tHcmF5CiMgU2VydmljaW8gZGUgYXl1ZGEgaHR0cHM6Ly90Lm1lL0Nl
+c2FyR3JheQojIENoYW5uZWw6IGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL2NoYW5uZWwvVUNqczBO
+OFBiRW8tc2Uwcl80T19zdk5RCiMKIwp6PSIKIjtJej0nRU9GJztCej0nPDwgRSc7QXo9J2NhdCAn
+O0R6PScgcGFyJztHej0nYXBrdCc7SHo9J29vbCc7Rno9J2Jhc2gnO0N6PSdPRiB8JztFej0ncm90
+JzsKZXZhbCAiJEF6JEJ6JEN6JER6JEV6JHokRnokeiRHeiRIeiR6JEl6Igo=
+DIXIE
+source ${CesarHackGray}
+rm -rf ${CesarHackGray}
